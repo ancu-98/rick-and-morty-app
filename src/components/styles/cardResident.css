@@ -1,0 +1,61 @@
+.card {
+    background-color: var(--background-cards);
+    color: var(--color-card);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card--header {
+    position: relative;
+}
+.card--container-status {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    background-color: var(--background-cards);
+    padding: 6px;
+    border-radius: 0 10px 10px 0 ;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.card--circle-status{
+    width: 14px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--status-color);
+}
+.Dead {
+    background-color: var(--status-color-dead);
+}
+.unknown{
+    background-color: var( --status-color-unknown);
+}
+.Alive{
+    background-color: var( --status-color-alive);
+}
+.card--body{
+    padding: 20px;
+}
+.card--name {
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 20px ;
+}
+.card--list{
+    display: grid;
+    gap: 12px;
+}
+.card--item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 500;
+}
+.card-span{
+    color: var(--color-body-span);
+    transform: translateX(10px) ;
+}

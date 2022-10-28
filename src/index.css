@@ -1,0 +1,34 @@
+:root {
+    --background-cards: #251B37;
+    --background-body: #372948 ;
+    --color-card: #DFD3C3;
+    --status-color-dead: #A62349;
+    --status-color-unknown: #5F6F94 ;
+    --status-color-alive: #38E54D;
+    --color-body-span: #7F8487;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 68.2%;
+}
+body{
+    background-color: var(--background-body) ;
+    color: var(--color-card);
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+}
+button{
+    border: none;
+}
+input{
+    outline: none;
+}
