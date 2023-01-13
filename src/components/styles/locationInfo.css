@@ -1,0 +1,30 @@
+.location_info{
+    background-color: blue;
+    margin: 30px;
+}
+
+.location_info_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.location_info_name{
+    justify-self: center;
+    align-self: center;
+    background-color: blueviolet;
+}
+
+.location_info_type{
+    justify-self: center;
+    align-self: center;
+}
+
+.location_info_dimension{
+    justify-self: center;
+    align-self: center;
+}
+
+.location_info_residents{
+    justify-self: center;
+    align-self: center;
+}

@@ -5,7 +5,28 @@
 }
 .card--container{
     display: flex;
-    gap: 30px;
+    gap: 3.2rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.title_container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 2.4rem;
+}
+
+.form_container {
+    background-color: beige;
+    margin: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr 32% ;
+}
+.form_button{
+    background-color: 2;
+    border: 0.2rem solid;
+    border-color: aqua;
+    border-radius: 4rem;
+    margin-left: 2.8rem;
 }

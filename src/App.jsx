@@ -51,15 +51,17 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Rick and Morty</h1>
-      <form onSubmit={handleSubmit}>
+      <article className='title_container'>
+        <h1 className='title'>Rick and Morty</h1>
+      </article>
+      <form className='form_container' onSubmit={handleSubmit}>
         <input
           id='idLocation'
           placeholder='Enter another number from 1 to 126'
           type="text"
           onChange={handleChange}
         />
-        <button>Search</button>
+        <button className='form_button'>Search</button>
         <FilterList
           suggeredList={suggeredList}
           setSearchInput={setSearchInput}
