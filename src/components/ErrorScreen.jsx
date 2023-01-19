@@ -1,8 +1,11 @@
 import React from 'react'
+import './styles/errorScreen.css'
 
 const ErrorScreen = () => {
     return (
-        <h2>This locaion is not found</h2>
+        <div className='header--location-error' >
+            <h2>Location not found</h2>
+        </div>
     )
 }
 

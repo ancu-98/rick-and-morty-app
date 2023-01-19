@@ -6,9 +6,14 @@
     border-radius: 12px;
     overflow: hidden;
 }
+
+.card:hover {
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
 .card--header {
     position: relative;
 }
+
 .card--container-status {
     position: absolute;
     top: 20px;
@@ -45,9 +50,12 @@
     align-items: center;
 }
 .card--name {
-    font-weight: 700;
+    width: 100%;
     font-size: 2.3rem;
     margin-bottom: 20px ;
+    text-align: center;
+    border-bottom: 2px solid var(--color-body-span);
+    padding-bottom: 8px;
 }
 .card--list {
     display: grid;
@@ -56,10 +64,11 @@
     align-items: center ;
 }
 .card--item {
-    font-weight: 500;
-    
+    font-size: 1.6rem;
 }
 .card-span{
     color: var(--color-body-span);
     transform: translateX(10px) ;
+    font-weight: 400;
+    font-size: 1.8rem;
 }

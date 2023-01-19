@@ -1,0 +1,35 @@
+.header--location-error {
+    margin: 12px 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid var(--background-cards);
+    border-radius: 10px;
+}
+
+.header--location-error:hover {
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+h2 {
+    margin: 6px;
+    font-size: 3.2rem;
+    background: linear-gradient(#1497be, #1c2aec);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 5s linear infinite;
+    text-align: center;
+}
+
+
+@keyframes text {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

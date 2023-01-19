@@ -19,6 +19,7 @@
 html{
     font-size: 68.2%;
     font-family: 'Kavoon', cursive;
+    cursor: url('../../../public/img/2.svg'), auto;
 }
 body{
     background-color: var(--background-body) ;

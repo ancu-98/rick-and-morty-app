@@ -16,5 +16,12 @@
 
 .filter_list li {
     font-size: 1.6rem;
-    cursor: pointer;
+    cursor: url('../../../public/img/1.svg'), auto;
+}
+
+@media (max-width: 620px ) {
+    .filter_list {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
