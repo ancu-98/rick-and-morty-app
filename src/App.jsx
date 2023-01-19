@@ -186,14 +186,23 @@ function App() {
         </div>
 
       </div>
+
       <form className='form_container' onSubmit={handleSubmit}>
         <input
+          spellCheck='false'
           id='idLocation'
           placeholder='Enter another number from 1 to 126'
           type="text"
           onChange={handleChange}
         />
-        <button className='form_button'>Search</button>
+        <img className='icon' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVFJREFUSEvVleExBEEQRt9FQAoiQATIgAgQASJABIgAESACZEAEyIAIqKd6qub2Zmen7N4P/eu2dqdf99dfz81YcsyWnJ8+wCpwBOwCG1HEC3APXAGfrYWVAAfABSCkFCY/AW5aIF2Aya/j4ANwCTzF8zZwBmzF8150VOXkACt+i8oPKxUKOQ2Z1obkygHpoJWrfS3syk7Oo6veb3OAQ1wHdjJZ+g4q1yPgmc1aJTngOz5stW7T92MBXxW3/db7V4mc0R3wDChX0wzSkF0mLdgyZPdBKzcBtOk7sBLO0CGlSIV8xJZXt7o70NS6ibWiyZTBUAr9nyQZtGh3Bqlat9m27aQUDtb3wrSpv2/7NKpddsexcO6G8RpXgwmVJe2N77yX3P6FaPV86Wx+b/VCxgBS0v2MvtDJWMAgZApAFzJ3E08FSBCtPfdHNCWg6NT/D/gBeOVFGZeTouUAAAAASUVORK5CYII="/>
+        <button className='form_button'>
+          <span className='shadow'></span>
+          <span className='edge'></span>
+          <span className='front' >
+            Search
+          </span>
+        </button>
         <FilterList
           suggeredList={suggeredList}
           setSearchInput={setSearchInput}

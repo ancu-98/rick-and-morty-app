@@ -27,9 +27,9 @@ const CardResident = ({ url }) => {
             <section className='card--body' >
                 <h3 className='card--name' >{resident?.name}</h3>
                 <ul className='card--list' >
-                    <li className='card--item'><span className='card-span' >Specie</span>{resident?.species}</li>
-                    <li className='card--item'><span className='card-span' >Origin</span>{resident?.origin.name}</li>
-                    <li className='card--item'><span className='card-span' >Episodes where appear</span>{resident?.episode.length}</li>
+                    <li className='card--item'><span className='card-span' >Specie </span>{resident?.species}</li>
+                    <li className='card--item'><span className='card-span' >Origin </span>{resident?.origin.name}</li>
+                    <li className='card--item'><span className='card-span' >Episodes where appear </span>{resident?.episode.length}</li>
                 </ul>
             </section>
         </article>
