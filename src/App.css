@@ -127,7 +127,7 @@ img {
     height: 16px;
     border-radius: 4px;
     overflow: hidden;
-    cursor: url('../../../public/img/1.svg'), auto;
+    cursor: url('/img/1.svg'), auto;
     background: rgba(255, 255, 255, 0.5);
     margin: 0 10px;
     text-align: center;
@@ -345,7 +345,7 @@ input[id="13"]:checked~.pagination .pagination_item[for="13"] {
     font-family: inherit;
     color: rgb(255, 255, 255/ 96%);
     outline: none;
-    cursor: url('../../../public/img/1.svg'), auto;
+    cursor: url('/img/1.svg'), auto;
 }
 
 .form_container input:focus~.icon {
@@ -401,7 +401,7 @@ input[id="13"]:checked~.pagination .pagination_item[for="13"] {
     margin: 8px 12px;
     position: relative;
     background: transparent;
-    cursor: url('../../../public/img/1.svg'), auto;
+    cursor: url('/img/1.svg'), auto;
     outline-offset: 1px;
     transition: filter 250ms;
 }

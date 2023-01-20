@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    cursor: url('../../../public/img/2.svg'), auto;
+    cursor: url('/img/2.svg'), auto;
     background-color: var(--background-body) ;
     color: var(--color-card);
 }

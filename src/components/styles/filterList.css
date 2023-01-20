@@ -16,7 +16,7 @@
 
 .filter_list li {
     font-size: 1.6rem;
-    cursor: url('../../../public/img/1.svg'), auto;
+    cursor: url('/public/img/1.svg'), auto;
 }
 
 @media (max-width: 620px ) {

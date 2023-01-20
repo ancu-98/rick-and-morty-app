@@ -65,9 +65,11 @@
 }
 .card--item {
     font-size: 1.6rem;
+    text-align: center;
 }
 .card-span{
     color: var(--color-body-span);
+    text-align: center;
     transform: translateX(10px) ;
     font-weight: 400;
     font-size: 1.8rem;
