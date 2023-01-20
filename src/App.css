@@ -499,6 +499,10 @@ input[id="13"]:checked~.pagination .pagination_item[for="13"] {
     }
 
     .form_button{
+        margin-top: 28px;
+        margin-bottom: 0px;
+        grid-row-start: 3;
+        grid-row-end: 4;
         grid-column-start: 1;
         grid-column-end: 3;
     }
